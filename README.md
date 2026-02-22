@@ -12,14 +12,16 @@ Current Features:
 - Prints the HTTP/1.1 request that would be sent
 
 ### Usage
-go run . http://example.com
+`go run . http://example.com`
 
 Example output:
 
+`
 connecting to example.com
 Sending request GET / HTTP/1.1
 Host: example.com
 Accept: */*
+`
 
 ### Goals
 The focus is on understanding:
